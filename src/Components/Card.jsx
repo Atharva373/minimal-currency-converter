@@ -58,7 +58,7 @@ function Card({
         onChange={(e)=>onAmountChange && onAmountChange(Number(e.target.value))}
         disabled={isDisabled}
         ></input>
-        <div className='text-cyan-200'>{countryName}</div>
+        <div className='text-cyan-200 mt-[5px] '>{countryName}</div>
     </div>
   )
 }
